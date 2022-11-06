@@ -12,14 +12,7 @@
 Please consider **citing** our paper if this repository is helpful to you.
 **Bibtex:**
 ```
-@INPROCEEDINGS{peng1570767WCNC,
-  author={Peng, Haoran and Wang, Li-Chun},
-  booktitle={Proc. IEEE Wireless Commun. Netw. Conf. (WCNC)}, 
-  title={Long-Lasting {UAV}-aided {RIS} Communications based on {SWIPT}},
-  address={Austin, TX},
-  year={2022},
-  month = {Apr.}
-}
+Haoran Peng, and Li-Chun Wang, “Energy Harvesting Reconfigurable Intelligent Surface for UAV Based on Robust Deep Reinforcement Learning”, has been submitted to IEEE Trans. Wireless Commun. 
 ```
 ## Requirements
 - Python: 3.6.13
@@ -44,22 +37,15 @@ Please consider **citing** our paper if this repository is helpful to you.
 - You can change the dataset and the scenario in 'gym_foo/envs/foo_env.py'.
 
 #### Training phase
-1. In the main.py, the switch of "Train" must be 'True' such as
+1. For the TD3 and DDPG, please execute the TD3.py and DDPG.py to train the model, such as
 ```
-14 Train = True # True for tranining, and False for testing.
+python TD3.py / python DDPG.py
 ```
-2. python main.py
+2. For the exhaustive search, please execute the ExhaustiveSearch.py to reproduce the simulation results.
+3. For the SD3, please execute main.py to train a new model. 
 
 #### Testing phase
-1. In the main.py, the switch of "Train" must be 'False' such as
-```
-14 Train = False # True for tranining, and False for testing.
-```
-2. python main.py
-3. The harvest energy of each step and overall steps are saved in 'Test_Rewards_Records.csv' and 'Total_Reward_Test.txt', respectively.
+Please execute test.py to evaluate DRL models. Before you produce the testing results, please change the dataset and scenario in 'gym_foo/envs/foo_env.py'.
 
 #### The EH efficiency
-The EH efficiency for each step can be calculated by:
-```
- reward of each step / 0.02275827153828275
-```
+The EH efficiency = the harvested energy / the received energy from RF signals
