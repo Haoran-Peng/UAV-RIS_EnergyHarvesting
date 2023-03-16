@@ -1,6 +1,6 @@
 # Energy Harvesting Reconfigurable Intelligent Surface for UAV Based on Robust Deep Reinforcement Learning
 ## Introduction
-- This repository is the implementation of "Energy Harvesting Reconfigurable Intelligent Surface for UAV Based on Robust Deep Reinforcement Learning".
+- This repository is the implementation of "Energy Harvesting Reconfigurable Intelligent Surface for UAV Based on Robust Deep Reinforcement Learning". [Paper](https://ieeexplore.ieee.org/document/10051712)
 - This study proposed a dual (time and spcace)-domain energy harvesting (EH) approach to maximize EH efficiency of the UAV—RIS system by jointly optimizing the RIS phase shifts vector, the RIS scheduling martix, the length of energy harvesting phase, and the transmit power. 
 - For the UAV trajectory design, we considered the density-aware and Fermat point-based algorithms.
 - The implementation of DDPG and TD3 using [Stable-Baseline3](https://stable-baselines3.readthedocs.io/en/master/).
@@ -10,9 +10,17 @@
 
 ## Citing
 Please consider **citing** our paper if this repository is helpful to you.
+```
+Haoran Peng, and Li-Chun Wang, “Energy Harvesting Reconfigurable Intelligent Surface for UAV Based on Robust Deep Reinforcement Learning”, IEEE Trans. Wireless Commun., early access, Feb. 23, 2023, doi: 10.1109/TWC.2023.3245820 
+```
 **Bibtex:**
 ```
-Haoran Peng, and Li-Chun Wang, “Energy Harvesting Reconfigurable Intelligent Surface for UAV Based on Robust Deep Reinforcement Learning”, has been submitted to IEEE Trans. Wireless Commun. 
+  @ARTICLE{10051712,
+  author={Peng, Haoran and Wang, Li-Chun},
+  journal={IEEE Trans. Wireless Commun.}, 
+  title={Energy Harvesting Reconfigurable Intelligent Surface for {UAV} Based on Robust Deep Reinforcement Learning}, 
+  note={early access, Feb. 2023, doi:\url{10.1109/TWC.2023.3245820}}
+ }
 ```
 ## Requirements
 - Python: 3.6.13
