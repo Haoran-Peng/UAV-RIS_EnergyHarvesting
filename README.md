@@ -49,6 +49,15 @@ Haoran Peng, and Li-Chun Wang, “Energy Harvesting Reconfigurable Intelligent S
 ```
 python TD3.py / python DDPG.py
 ```
+***Please change the training mode in the file "gym_foo/envs/foo_env.py" before you executing the training progress.***
+For example:
+```
+class FooEnv(gym.Env):
+    metadata = {'render.modes': ['human']}
+    def __init__(self, LoadData = True, Train = False, multiUT = True, Trajectory_mode = 'Fermat', MaxStep = 41):        
+```
+If you want to conducte the training phase, the value of "Train" should be "True", otherwise, the value of "Train" should be "Flase" when excuting the testing phase.
+
 2. For the exhaustive search, please execute the ExhaustiveSearch.py to reproduce the simulation results.
 3. For the SD3, please execute main.py to train a new model. 
 
