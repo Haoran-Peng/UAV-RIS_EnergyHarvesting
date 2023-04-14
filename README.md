@@ -61,7 +61,7 @@ If you want to conduct the training phase, the value of "Train" should be "True"
 2. For the exhaustive search, please execute the ExhaustiveSearch.py to reproduce the simulation results.
 3. For the SD3, please execute main.py to train a new model. 
 
-***Please use the version of 0.15.3 for Gym, otherwise there may have some issues for the training phase.***
+***Please use the version of 0.15.3 for Gym, otherwise there may have some issues in the training phase.***
 
 #### Testing phase
 Please execute test.py to evaluate DRL models. Before you produce the testing results, please change the dataset and scenario in 'gym_foo/envs/foo_env.py'.
