@@ -22,6 +22,16 @@ Haoran Peng, and Li-Chun Wang, “Energy Harvesting Reconfigurable Intelligent S
   note={early access, Feb. 2023, doi:\url{10.1109/TWC.2023.3245820}}
  }
 ```
+```
+@INPROCEEDINGS{peng1570767WCNC,
+  author={Peng, Haoran and Wang, Li-Chun and Li, Geoffrey Ye and Tsai, Ang-Hsun},
+  booktitle={Proc. IEEE Wireless Commun. Netw. Conf. (WCNC)}, 
+  title={Long-Lasting {UAV}-aided {RIS} Communications based on {SWIPT}},
+  address={Austin, TX},
+  year={2022},
+  month = {Apr.}
+}
+```
 ## Requirements
 - Python: 3.6.13
 - Pytorch: 1.10.1
