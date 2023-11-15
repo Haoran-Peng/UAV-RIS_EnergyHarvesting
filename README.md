@@ -6,7 +6,7 @@
 - The implementation of DDPG and TD3 using [Stable-Baseline3](https://stable-baselines3.readthedocs.io/en/master/).
 - The implementation of SD3 is based on Dr. Pan's research: [Softmax Deep Double Deterministic Policy Gradients](https://github.com/ling-pan/SD3).
 
-> There are some limitations to this work. If you have any questions or suggestions, please feel free to contact me (peng.ee07@nycu.edu.tw). Your suggestions are greatly appreciated.
+> There are some limitations to this work. If you have any questions or suggestions, please feel free to contact me (haoranpeng@cuhk.edu.hk). Your suggestions are greatly appreciated.
 
 ## Citing
 Please consider **citing** our paper if this repository is helpful to you.
