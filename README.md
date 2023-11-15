@@ -11,7 +11,7 @@
 ## Citing
 Please consider **citing** our paper if this repository is helpful to you.
 ```
-Haoran Peng, and Li-Chun Wang, “Energy Harvesting Reconfigurable Intelligent Surface for UAV Based on Robust Deep Reinforcement Learning”, IEEE Trans. Wireless Commun., early access, Feb. 23, 2023, doi: 10.1109/TWC.2023.3245820 
+Haoran Peng, and Li-Chun Wang, “Energy Harvesting Reconfigurable Intelligent Surface for UAV Based on Robust Deep Reinforcement Learning”, IEEE Trans. Wireless Commun., vol. 22, no. 10, pp. 6826——6838, Oct., 2023, doi: 10.1109/TWC.2023.3245820 
 ```
 **Bibtex:**
 ```
@@ -19,7 +19,11 @@ Haoran Peng, and Li-Chun Wang, “Energy Harvesting Reconfigurable Intelligent S
   author={Peng, Haoran and Wang, Li-Chun},
   journal={IEEE Trans. Wireless Commun.}, 
   title={Energy Harvesting Reconfigurable Intelligent Surface for {UAV} Based on Robust Deep Reinforcement Learning}, 
-  note={early access, Feb. 2023, doi:\url{10.1109/TWC.2023.3245820}}
+  year={2023},
+  month={Oct.}
+  volume={22},
+  number={10},
+  pages={6826--6838},
  }
 ```
 ```
